@@ -1,11 +1,8 @@
+//Resp Unica
 public class LogIn {
     public void log (User user) {
         System.out.println("Has access to the website");
-        insertUserInDatabase(user);
+        //Lógica para llamar a la base de datos y agregar el usuario
         // Logic
     }
-    public void insertUserInDatabase(User user){
-        // Insert user in database
-    }
-}
 
